@@ -1,12 +1,13 @@
 <?php
 require 'data/orang.php';
 
-$orang = new Orang();
-$orang->nama = "Arfan Salman Ramadhan";
-$orang->alamat = "Bandung";
-// $orang->negara = "indonesia";
-// $orang->halo("Arfan", "Bandung", "indonesia");
-echo "Nama : {$orang->nama}";
-echo "Alamat : {$orang->alamat}";
-echo "Negara : {$orang->negara}";
-var_dump($orang);
+$Arfan = new Orang("ARFAN", "BANDUNG");
+$Arfan->nama = "Arfan Salman Ramadhan";
+$Arfan->alamat = "Bandung";
+// $Arfan->negara = "indonesia";
+$Arfan->halo("Salman", "Bandung", "indonesia");
+echo "Nama : {$Arfan->nama}";
+echo "Alamat : {$Arfan->alamat}";
+echo "Negara : {$Arfan->negara}";
+var_dump($Arfan);
+$Arfan->info();
