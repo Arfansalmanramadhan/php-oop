@@ -1,5 +1,9 @@
 <?php
-require 'data/orang.php';
+class Orang
+{
+    var $nama;
+    var $alamat;
+}
 
 $orang = new Orang("ARFAN", "BANDUNG");
 

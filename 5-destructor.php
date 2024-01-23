@@ -7,8 +7,8 @@ class Orang
 
     function __destruct()
     {
-        echo "Object Orang {$this->nama} terhapus";
+        echo "Object Orang $this->nama terhapus";
     }
 }
-$salman = new Orang("", "Bandung");
+$salman = new Orang("Arfan", "Bandung");
 echo "Program Selesai" . PHP_EOL;

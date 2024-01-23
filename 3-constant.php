@@ -1,5 +1,8 @@
 <?php
-require "data/orang.php";
+
+class Orang {
+    const AUTHOR = "Arfan";
+}
 define("APPLICATION", "BELAJAR OOP");
 const APP_VERSION = "1.0.0";
 
